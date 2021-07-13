@@ -1,0 +1,75 @@
+.meet-info-block{
+  position: absolute;
+  top: 20px;
+  left: 600px;
+  background: rgb(34, 34, 34);
+  border-radius: 10px;
+  padding: 25px;
+  width: 310px;
+  .meeting-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    h3{
+      margin: 0;
+      font-size: 18px;
+      font-weight: 400;
+
+    }
+    .icon{
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  }
+  .add-btn{
+    display: flex;
+    align-items: center;
+    background: #4b53bc;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    .icon{
+      font-size: 9px;
+      margin-right: 10px;
+    }
+  }
+  .info-text{
+    color: #fff ;
+    font-size: 14px;
+  }
+  .meet-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f3f5;
+    padding: 15px;
+    border-radius: 5px;
+    span{
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      outline: none;
+      background: none;
+      flex: 1;
+      color: #555;
+    }
+    
+      .icon{
+        cursor: pointer;
+        margin-right: 5px;
+        color: rgb(44, 61, 107);
+      }
+    
+      .icon-dup{
+        cursor: pointer;
+        color: rgb(105, 97, 219);
+      
+      }
+  }
+}

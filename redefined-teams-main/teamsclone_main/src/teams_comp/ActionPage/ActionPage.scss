@@ -1,0 +1,27 @@
+.callpage-container {
+
+  .video-container {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover; // use "cover" to avoid distortion
+    position: absolute;
+    z-index: -1;
+  }
+  .self-video{
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    // top: 70%;
+    // left: 80%;
+    height: 27%;
+    width: 19%;
+    object-fit: cover;
+    position: absolute;
+    transition: width 3s, height 3s;
+    &:hover{
+      height: 60%;
+      width: 50%;
+    }
+  }
+}
+

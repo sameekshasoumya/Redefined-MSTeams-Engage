@@ -1,0 +1,52 @@
+.top-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgb(34, 34, 34);
+  border-radius: 0 0 0 10px;
+  overflow: hidden;
+  .head-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    flex: 1;
+    
+    position: relative;
+    .on-message-alert{
+      position: absolute;
+      background: #4b53bc;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid white;
+      top: 10px;
+      right: 37%;
+    }
+    &.time-block{
+      font-size: 22px;
+      color: #fff;
+      min-width: 120px;
+      font-weight: 400;
+
+    }
+    &.icon-block{
+      .icon{
+        color: #fff;
+        font-size: 22px;
+        &.profile{
+          font-size: 32px;
+          color:  #6666ff;
+        }
+      }
+      &:hover{
+        cursor: pointer;
+        background: rgb(77, 75, 75);
+      }
+    }
+  }
+}
