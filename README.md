@@ -1,7 +1,7 @@
 # TEAMS-REDEFINED(ENGAGE'21)
 
-Video demo link to my project : https://youtu.be/uHUcd0k569w
-Design overview : https://docs.google.com/document/d/19yTiXJ45ZtoAqojEf6brMFhnd67FoN26JuPK4sV-uLw/edit?usp=sharing 
+- Video demo link to my project : https://youtu.be/uHUcd0k569w
+- Design overview : https://docs.google.com/document/d/19yTiXJ45ZtoAqojEf6brMFhnd67FoN26JuPK4sV-uLw/edit?usp=sharing 
 
 # ABOUT
 
